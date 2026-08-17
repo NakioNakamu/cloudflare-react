@@ -47,22 +47,32 @@ export function HomePage() {
 			<Header activeSection={activeSection} onSectionChange={setActiveSection} />
 			<main>
 				<section className="hero-section" id="home" aria-labelledby="hero-title">
-					<div className="hero-copy">
-						<p className="eyebrow">Senior Engineer</p>
-						<h1 id="hero-title">Engineering Through Understanding</h1>
-						<p className="hero-summary">
-							I'm an engineer and technical consultant driven by understanding
-							how things work, solving difficult problems, and turning that
-							understanding into practical solutions.
-						</p>
-						<div className="hero-actions" aria-label="Primary actions">
-							<a className="button button-primary" href="#about">
-								Read Bio
-							</a>
-							<a className="button button-secondary" href="#contact">
-								Get in Touch
-							</a>
+					<div className="hero-layout">
+						<div className="hero-copy">
+							<p className="eyebrow">Senior Engineer</p>
+							<h1 id="hero-title">Engineering Through Understanding</h1>
+							<p className="hero-summary">
+								I'm an engineer and technical consultant driven by understanding
+								how things work, solving difficult problems, and turning that
+								understanding into practical solutions.
+							</p>
+							<div className="hero-actions" aria-label="Primary actions">
+								<a className="button button-primary" href="#about">
+									Read Bio
+								</a>
+								<a className="button button-secondary" href="#contact">
+									Get in Touch
+								</a>
+							</div>
 						</div>
+						<figure className="hero-photo">
+							<img
+								src="/profile-photo"
+								alt="Nathan Nakamura"
+								width="380"
+								height="500"
+							/>
+						</figure>
 					</div>
 				</section>
 

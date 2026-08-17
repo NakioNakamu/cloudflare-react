@@ -11,12 +11,16 @@
 	"assets": {
 		"directory": "./dist/client",
 		"not_found_handling": "single-page-application",
-		"run_worker_first": ["/api/*", "/resume"]
+		"run_worker_first": ["/api/*", "/resume", "/profile-photo"]
 	},
 	"r2_buckets": [
 		{
 			"binding": "documents",
 			"bucket_name": "documents"
+		},
+		{
+			"binding": "photos",
+			"bucket_name": "photos"
 		}
 	]
 }
