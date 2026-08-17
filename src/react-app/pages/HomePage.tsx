@@ -130,12 +130,21 @@ export function HomePage() {
 					</div>
 					<div className="contact-panel">
 						<p>
-							Add your preferred email, LinkedIn, or booking link here when you
-							are ready to make the site public.
+							Reach out by email or connect with me on LinkedIn.
 						</p>
-						<a className="button button-disabled" href="#contact" aria-disabled="true">
-							Contact Info Coming Soon
-						</a>
+						<div className="contact-actions">
+							<a className="button button-secondary" href="mailto:contact@nnakamura.dev">
+								Email
+							</a>
+							<a
+								className="button button-secondary"
+								href="https://www.linkedin.com/in/nathan-nakamura-8838387b/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								LinkedIn
+							</a>
+						</div>
 					</div>
 				</section>
 			</main>

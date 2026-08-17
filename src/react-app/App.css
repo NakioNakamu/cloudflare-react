@@ -265,6 +265,12 @@ h3 {
 	box-shadow: 0 18px 50px rgba(0, 0, 0, 0.16);
 }
 
+.contact-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.85rem;
+}
+
 .resume-panel p,
 .contact-panel p {
 	max-width: 680px;
