@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 const app = new Hono<{ Bindings: Env }>();
-const profilePhotoKey = "profile.jpeg";
+const profilePhotoKey = "IMG_2736.jpeg";
 
 app.get("/api/", (c) => c.json({ name: "Cloudflare" }));
 
