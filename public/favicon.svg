@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+	<title>Nathan Nakamura</title>
+	<defs>
+		<linearGradient id="bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#1d2a62" />
+			<stop offset="1" stop-color="#2a174a" />
+		</linearGradient>
+		<linearGradient id="ring" x1="14" y1="10" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#f0c36a" />
+			<stop offset="1" stop-color="#d99a4e" />
+		</linearGradient>
+	</defs>
+	<rect width="64" height="64" rx="16" fill="#090e1d" />
+	<circle cx="32" cy="32" r="24" fill="url(#bg)" />
+	<circle cx="32" cy="32" r="23" fill="none" stroke="url(#ring)" stroke-width="2" />
+	<path
+		d="M20 44V20h5.4l13.1 16V20H44v24h-5.2L25.5 27.8V44H20Z"
+		fill="#f7f7ff"
+	/>
+	<path d="M19 49h26" stroke="#f0c36a" stroke-width="2" stroke-linecap="round" opacity="0.72" />
+</svg>

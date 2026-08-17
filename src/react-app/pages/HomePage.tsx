@@ -98,19 +98,23 @@ export function HomePage() {
 				>
 					<div className="section-heading">
 						<p className="eyebrow">Resume</p>
-						<h2 id="resume-title">Resume Asset</h2>
+						<h2 id="resume-title">Resume</h2>
 					</div>
 					<div className="resume-panel">
 						<div>
-							<h3>Ready for your PDF</h3>
+							<h3>Served from Cloudflare R2</h3>
 							<p>
-								When you add your resume, place it at
-								<code> src/react-app/assets/resume.pdf</code>. We can then switch
-								this call-to-action to import the asset directly for production.
+								The latest resume is stored in the <code>documents</code> R2
+								bucket and delivered through a Worker route at <code>/resume</code>.
 							</p>
 						</div>
-						<a className="button button-disabled" href="#resume" aria-disabled="true">
-							Resume Coming Soon
+						<a
+							className="button button-secondary"
+							href="/resume"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Open Resume
 						</a>
 					</div>
 				</section>
